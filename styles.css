@@ -1,0 +1,42 @@
+body {
+	background:grey;
+	margin:0;
+	padding:20px;
+	font-size:100%;
+}
+/**/
+h1{margin:0 0 0.5em;}
+.background{
+	float:left;
+	width:200px;
+	height:200px;
+	border:20px dotted green;
+	background-image:url("m.jpg");
+}
+.repet{background-repeat:repeat;}
+.norepeat{background-repeat:no-repeat;}
+.repeaty{background-repeat:repeat-y;}
+/*positioning backgrounds*/
+.example{
+	float:left;
+	width:200px;
+	height:200px;
+	border:20px dotted green;
+	background-image:url("m.jpg");
+	background-repeat:no-repeat;
+}
+.example1 {background-position:0 0;}
+.example2 {background-position:right top;}
+.example3{background-position:center center;}
+.example4{background-position:right bottom;}
+.example5{background-position:40px 100px;}
+.example6{background-position:50% 50%;}
+.attach {
+	background-repeat:no-repeat
+	background-image:url("u.jpg");
+	background-attachment:fixed;
+	background-position:50% 15%;
+}
+
+
+
